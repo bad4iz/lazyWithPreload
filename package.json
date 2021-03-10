@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/bad4iz/lazyWithPreload/issues"
   },
-  "homepage": "https://github.com/bad4iz/lazyWithPreload#readme"
+  "homepage": "https://github.com/bad4iz/lazyWithPreload#readme",
+  "dependencies": {
+    "react": "^17.0.1"
+  }
 }
