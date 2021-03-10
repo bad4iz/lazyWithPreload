@@ -1,0 +1,25 @@
+{
+  "name": "lazywithpreload",
+  "version": "1.0.0",
+  "description": "lazyWithPreload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bad4iz/lazyWithPreload.git"
+  },
+  "keywords": [
+    "lazyWithPreload",
+    "lazy-with-preload",
+    "lazy-load",
+    "react-lazy-load"
+  ],
+  "author": "bad4iz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bad4iz/lazyWithPreload/issues"
+  },
+  "homepage": "https://github.com/bad4iz/lazyWithPreload#readme"
+}
