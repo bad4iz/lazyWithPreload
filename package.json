@@ -1,6 +1,6 @@
 {
   "name": "lazy-with-preload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lazy with preload",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,6 @@
     "ver-minor": "npm version minor -m \"Upgrade minor to %s\"",
     "postversion": "git push && git push --tags && npm publish",
     "publish": "npm publish",
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
