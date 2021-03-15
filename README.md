@@ -1,5 +1,8 @@
 # lazy with preload
 
+## Ease of use
+
+
 ## install
 ```
 yarn add lazy-with-preload
@@ -15,22 +18,22 @@ npm i --save lazy-with-preload
 
 import lazyWithPreload from 'lazy-with-preload'
 
-const OtherComponent  = lazyWithPreload(() => import("./OtherComponent"));
+const OtherComponent  = lazyWithPreload('./OtherComponent');
 
 // somewhere in your component
-...
+// ...
 OtherComponent.preload();
-...
+// ...
 ```
 
 ## Example
 
 ```javascript
-import lazyWithPreload from 'lazy-with-preload'
+import lazyWithPreload from 'lazy-with-preload';
 
-const OtherComponent  = lazyWithPreload(() => import("./OtherComponent"));
+const OtherComponent = lazyWithPreload('./OtherComponent');
 
-...
+// ...
 <button
     onClick={() => setShowOtherComponent(true)}
     // This component will be needed soon. Let's preload it!
@@ -38,7 +41,7 @@ const OtherComponent  = lazyWithPreload(() => import("./OtherComponent"));
 >
     Click me to render OtherComponent
 </button>
-...
+// ...
 
 ```
 
@@ -49,9 +52,9 @@ import { useEffect } from 'react';
 
 import lazyWithPreload from 'lazy-with-preload'
 
-const OtherComponent1  = lazyWithPreload(() => import("./OtherComponent1"));
-const OtherComponent2  = lazyWithPreload(() => import("./OtherComponent2"));
-const OtherComponent3  = lazyWithPreload(() => import("./OtherComponent3"));
+const OtherComponent1  = lazyWithPreload("./OtherComponent1");
+const OtherComponent2  = lazyWithPreload("./OtherComponent2");
+const OtherComponent3  = lazyWithPreload("./OtherComponent3");
 
 export const SomeComponent = () => {
     useEffect(()=>{
@@ -61,7 +64,7 @@ export const SomeComponent = () => {
     })
     return (
         <div>
-            ...
+        // ...
         </div>
     );
 };
