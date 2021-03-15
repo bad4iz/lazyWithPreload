@@ -6,7 +6,7 @@
   "scripts": {
     "ver-patch": "npm version patch -m \"Upgrade patch to  %s\"",
     "ver-minor": "npm version minor -m \"Upgrade minor to %s\"",
-    "postversion": "git push && git push --tags && npm publish",
+    "postversion": "git push && git push --tags",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
