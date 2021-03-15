@@ -2,11 +2,10 @@ import {lazy} from 'react'
 
 /**
  *
- * @param {string} path
+ * @param {function} factory - ()=>import(path)
  * @returns {React.LazyExoticComponent<React.ComponentType<any>>}
  */
-export default function lazyWithPreload(path) {
-    const factory = ()=>import(path)
+export default function lazyWithPreload(factory) {
     const Component = lazy(factory);
     Component.preload = factory;
     return Component;
