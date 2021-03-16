@@ -1,17 +1,17 @@
-# lazy with preload
+# lazy with preload for ReactJS applications
 
-![](https://travis-ci.org/bad4iz/lazyWithPreload.svg?branch=main)
-![](https://img.shields.io/npm/v/lazyWithPreload.svg)
-![](https://img.shields.io/npm/dt/lazyWithPreload.svg)
+![](https://travis-ci.org/bad4iz/lazy-with-preload.svg?branch=main)
+![](https://img.shields.io/npm/v/lazy-with-preload.svg)
+![](https://img.shields.io/npm/dt/lazy-with-preload.svg)
 
 ![](https://img.shields.io/github/commit-activity/m/bad4iz/lazyWithPreload.svg)
 ![](https://img.shields.io/github/last-commit/bad4iz/lazyWithPreload.svg)
 
 ![](https://img.shields.io/github/license/bad4iz/lazyWithPreload.svg)
 
-This Npm package will be useful for avoiding long load modules after switching routes. Especially effectively when you have a big bundle of modules which you need to use on switching between routes and you want to minimise primary chunk.
+This Npm package will be useful on any ReactJS applications for avoiding long load modules after switching routes. Especially effectively when you have a big bundle of modules which you need to use on switching between routes and you want to minimise primary chunk.
 
-example code: https://github.com/miklblitz/react-lazy-load
+[example code](https://github.com/miklblitz/react-lazy-load)
 
 ## install
 

@@ -1,6 +1,6 @@
 {
   "name": "lazy-with-preload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "lazy with preload",
   "main": "index.js",
   "scripts": {
