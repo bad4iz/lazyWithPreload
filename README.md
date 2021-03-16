@@ -25,36 +25,36 @@ or
 npm i --save lazy-with-preload
 ```
 
-## Usage
+## Ease of use
 
 ```javascript
 
-import lazyWithPreload from 'lazy-with-preload'
+import lazyWithPreload from 'lazy-with-preload';
 
-const OtherComponent  = lazyWithPreload(() => import("./OtherComponent"));
+const OtherComponent  = lazyWithPreload(() => import('./OtherComponent'));
 
 // somewhere in your component
-...
+// ...
 OtherComponent.preload();
-...
+// ...
 ```
 
 ## Example
 
 ```javascript
-import lazyWithPreload from 'lazy-with-preload'
+import lazyWithPreload from 'lazy-with-preload';
 
-const OtherComponent  = lazyWithPreload(() => import("./OtherComponent"));
+const OtherComponent  = lazyWithPreload(() => import('./OtherComponent'));
 
-...
-<button
-    onClick={() => setShowOtherComponent(true)}
+// ...
+<Link
+    to="/other"
     // This component will be needed soon. Let's preload it!
     onMouseOver={() => OtherComponent.preload()}
 >
-    Click me to render OtherComponent
-</button>
-...
+    link OtherComponent
+</Link>
+// ...
 
 ```
 
