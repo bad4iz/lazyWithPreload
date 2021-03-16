@@ -75,6 +75,8 @@ export const SomeComponent = () => {
     OtherComponent2.preload();
     OtherComponent3.preload();
   });
-  return <div>/* here is your code */</div>;
+  return <div>
+  /* here is your code */
+  </div>;
 };
 ```
