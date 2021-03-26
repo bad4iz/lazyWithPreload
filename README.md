@@ -11,9 +11,9 @@
 
 This Npm package will be useful on any ReactJS applications for avoiding long load modules after switching routes. Especially effectively when you have a big bundle of modules which you need to use on switching between routes and you want to minimise primary chunk.
 
-[npm lazy-with-preload](https://www.npmjs.com/package/lazy-with-preload)
-[example code github](https://github.com/miklblitz/react-lazy-load) 
-[live example codesandbox](https://codesandbox.io/s/lazy-load-reactjs-24fin)
+[npm lazy-with-preload](https://www.npmjs.com/package/lazy-with-preload)   
+[example code github](https://github.com/miklblitz/react-lazy-load)   
+[live example codesandbox](https://codesandbox.io/s/lazy-load-reactjs-24fin)  
 
 ## install
 
