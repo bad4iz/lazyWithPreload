@@ -1,6 +1,6 @@
 {
   "name": "lazy-with-preload",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "lazy with preload",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/bad4iz/lazyWithPreload#readme",
   "dependencies": {
-    "react": "^17.0.1"
+    "react": "^18.2.0"
   }
 }
