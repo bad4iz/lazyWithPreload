@@ -1,4 +1,4 @@
-import { ComponentType, LazyExoticComponent } from 'react';
+import { ComponentType } from 'react';
 export type PreloadComponent<T extends ComponentType<any>> = T & {
     preload: () => Promise<T>;
 };
@@ -9,4 +9,4 @@ export type PreloadComponent<T extends ComponentType<any>> = T & {
  */
 export default function lazyWithPreload<T extends ComponentType<any>>(factory: () => Promise<{
     default: T;
-}>): LazyExoticComponent<ComponentType<any>>;
+}>): PreloadComponent<T>;
