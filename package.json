@@ -1,6 +1,6 @@
 {
   "name": "lazy-with-preload",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React lazy with preload",
   "main": "index.js",
   "types": "index.d.ts",
@@ -8,7 +8,7 @@
     "ver-patch": "npm version patch -m \"Upgrade patch to  %s\"",
     "ver-minor": "npm version minor -m \"Upgrade minor to %s\"",
     "postversion": "git push && git push --tags",
-    "publish": "npm publish",
+    "publish:packet": "npm publish",
     "build": "tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
