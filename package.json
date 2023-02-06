@@ -1,13 +1,15 @@
 {
   "name": "lazy-with-preload",
-  "version": "2.0.0",
-  "description": "lazy with preload",
+  "version": "2.0.1",
+  "description": "React lazy with preload",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "ver-patch": "npm version patch -m \"Upgrade patch to  %s\"",
     "ver-minor": "npm version minor -m \"Upgrade minor to %s\"",
     "postversion": "git push && git push --tags",
     "publish": "npm publish",
+    "build": "tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,15 +20,22 @@
     "lazyWithPreload",
     "lazy-with-preload",
     "lazy-load",
-    "react-lazy-load"
+    "react-lazy-load",
+    "React",
+    "Lazy",
+    "Preload"
   ],
   "author": "bad4iz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bad4iz/lazyWithPreload/issues"
   },
   "homepage": "https://github.com/bad4iz/lazyWithPreload#readme",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27"
   }
 }
