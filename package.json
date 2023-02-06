@@ -2,8 +2,8 @@
   "name": "lazy-with-preload",
   "version": "2.0.2",
   "description": "React lazy with preload",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "ver-patch": "npm version patch -m \"Upgrade patch to  %s\"",
     "ver-minor": "npm version minor -m \"Upgrade minor to %s\"",
@@ -12,6 +12,9 @@
     "build": "tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bad4iz/lazyWithPreload.git"
